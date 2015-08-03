@@ -1,6 +1,8 @@
 # Using wheezy from the official golang docker repo
 FROM golang:1.4.1-wheezy
 
+MAINTAINER dharmi@gmail.com
+
 # Setting up working directory
 RUN mkdir -p /go/src/main
 WORKDIR /go/src/main
