@@ -14,6 +14,6 @@ RUN go install main
 # Setting up environment variables
 ENV ENV dev
 
-# My web app is running on port 8080 so exposed that port for the world
+# Expose the application to listen at 8080
 EXPOSE 8080
 ENTRYPOINT ["/go/bin/main"]
