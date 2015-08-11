@@ -1,8 +1,8 @@
 # docker-go
-A simple Go server listening at 8080 port
+A simple Go web application at 8000 port
 
 # Build
-    docker run -d dharmi/goserver .
+    docker run -d adobecloud/goapp .
 
 # Run
-    docker run -d -p 8080:8080 dharmi/goserver
+    docker run -d -p 8080:8080 adobecloud/goapp
