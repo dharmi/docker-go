@@ -26,4 +26,4 @@ ENV ENV dev
 
 # My web app is running on port 8080 so exposed that port for the world
 EXPOSE 8000
-ENTRYPOINT ["/go/bin/main"]
+ENTRYPOINT ["bin/main"]
