@@ -32,7 +32,7 @@ func main() {
 	*/
 	
 	//DEMO 5
-	http.ListenAndServe(":8000", http.FileServer(http.Dir("public")))
+	http.ListenAndServe(":80", http.FileServer(http.Dir("public")))
 }
 
 //DEMO 2, 3, 4
